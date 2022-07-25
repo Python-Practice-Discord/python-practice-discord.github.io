@@ -12,11 +12,10 @@ We are not StackOverflow, and we don't care if someone else asked the question a
 We want you to learn without being discouraged.
 
 Our mod staff consists of a team of three who have been community members since 
-the beginning. They enforce the Code of Conduct and are available for anything the
+the beginning. They enforce the [Code of Conduct](/code-of-conduct) and are available for anything the
 community needs.
 
-We value community feedback. If you have any suggestions, post them in the "suggestions
-to improve the server" channel.
+We value community feedback. If you have any suggestions, post them in the "suggestions-and-feedback" channel.
 
 # Join Today
 {% include discord_widget.html %}

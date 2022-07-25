@@ -22,7 +22,7 @@ github_username:  Python-Practice-Discord
 
 # Build settings
 markdown: kramdown
-remote_theme: morpheus636/better-cayman@v0.1.0
+remote_theme: morpheus636/better-cayman@v0.1.1
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
