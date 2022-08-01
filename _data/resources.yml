@@ -1,0 +1,66 @@
+# Adding Resources:
+# Create an entry containing:
+# - title
+# - description (should be 1-2 sentences)
+# - image_url (should be 244x122 or it will be cropped. can be uploaded to /assets/resource-images. if not specified, will show the same as the header of the site.)
+# - url (where should the link direct to)
+# - submitter (your username)
+
+
+resources:
+  - title: Programming Books Repository
+    description: GitHub Repo of programming-books compiled by PercyJackson235.
+    image_url: https://opengraph.githubassets.com/f26e328dd056bdbf559cf7379c557780b81dec2115dfcf24f6ba1778d490333b/PercyJackson235/Programming-Books
+    url: https://github.com/PercyJackson235/Programming-Books
+    submitter: PercyJackson235
+  - title: FreeCodeCamp Python Playlist
+    description: YouTube playlist of python courses published by FreeCodeCamp
+    image_url: https://i.ytimg.com/vi/rfscVS0vtbw/hqdefault.jpg?sqp=-oaymwEWCKgBEF5IWvKriqkDCQgBFQAAiEIYAQ==&amp;rs=AOn4CLBAxfR3RUrpjp9GkBV4plE4moZ9aQ&amp;days_since_epoch=19205
+    url: https://youtube.com/playlist?list=PLWKjhJtqVAbnqBxcdjVGgT3uVR10bzTEB
+    submitter: hombrelechuga
+  - title: Python Programming All-in-One Tutorial
+    description: A seven-hour long "Python Programming All-in-One" tutorial video published by Caleb Curry
+    image_url: https://i.ytimg.com/vi/adNgan70iyU/maxresdefault.jpg
+    url: https://www.youtube.com/watch?v=adNgan70iyU
+    submitter: AJ.py 
+  - title: Python Programming Tutorials
+    description: Python Programming tutorials from beginner to advanced on a massive variety of topics. All video and text tutorials are free.
+    image_url:
+    url: https://pythonprogramming.net
+    submitter: StaleCracker90
+  - title: How To Think Like a Computer Scientist
+    description: Free Computer Science textbook which makes use of Python.
+    image_url:
+    url: https://openbookproject.net/thinkcs/python/english3e/index.html
+    submitter: Zay0926
+  - title: Automate the Boring Stuff with Python
+    description: Free book teaching "Practical Programming for Total Beginners" using Python.
+    image_url: https://automatetheboringstuff.com/images/cover_automate2_thumb.jpg
+    url: https://automatetheboringstuff.com/
+    submitter: PeterHoburg
+  - title: W3Schools Online Programming Reference
+    description: Online reference material and tutorials for many programming languages.
+    image_url: https://www.w3schools.com/images/w3schools_logo_436_2.png
+    url: https://w3schools.com/ 
+    submitter: Morpheus636
+  - title: Obey The Testing Goat! Intro to Test-Driven-Development
+    description: Test-Driven-Development for the Web with Python, Selenium, Django, JavaScript and pals.
+    image_url: https://images-na.ssl-images-amazon.com/images/I/51K8lEqa9SL._SX379_BO1,204,203,200_.jpg
+    url: https://www.obeythetestinggoat.com/pages/book.html#toc
+    submitter: PeterHorburg
+  - title: Gentle Introduction to Testing with Pytest
+    description: A good place to start learning how to test your code using PyTest (which you should be doing!)
+    image_url: https://bas.codes/static/fa7a9d45d8a2c2158bb982f5f96f81ae/2048-97-ibrahim-boran-iYkqHp5cGQ4-unsplash.jpg
+    url: https://bas.codes/posts/python-pytest-introduction
+    submitter: Morpheus636 
+
+tools:
+  - title: GitHub Student Developer Pack
+    description: Discounts and free education versions of a wide range of popular programming tools available to students.
+    image_url: https://education.github.com/assets/pack/opengraph-image-c6d692948bb5fbf237b8a72d6576b4dcc84586335b522a6036904fc16ec7eccd.png
+    url: https://education.github.com/pack
+    submitter: PercyJackson235
+  - title: JetBrains IDEs for Open Source
+    description: Free licenses to JetBrains IDEs available to Open-Source project maintainers.
+    url: https://www.jetbrains.com/shop/eform/opensource
+    submitter: ReenigneArcher
