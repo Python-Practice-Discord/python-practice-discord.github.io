@@ -24,6 +24,14 @@
 .grid_item img{
   object-fit: cover;
   width: 100%;
-  height: 150px;
+  height: 122px;
   border-bottom: 3px solid $header-bg-color;
+}
+
+#placeholder_grid_image{
+  background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+  width: 100%;
+  height: 122px;
+  border-bottom: 3px solid $header-bg-color;
+  margin-bottom: 6px;
 }

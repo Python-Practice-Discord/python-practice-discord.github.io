@@ -4,7 +4,6 @@ permalink: /resources
 title: Resources
 description: A collection of useful resources and tools compiled by the Python_Practice community.
 ---
-
 {% assign resources = site.data.resources.resources %}
 {% assign tools = site.data.resources.tools %}
 
@@ -12,21 +11,28 @@ description: A collection of useful resources and tools compiled by the Python_P
 <div class="grid_container">
  {%- for resource in resources -%}
     <div class="grid_item">
-      <img src="{{ resource.image_url }}">
-      <br/><a href="{{resource.url}}">{{ resource.title }}</a>
+      {% if resource.image_url %}
+        <img src="{{ resource.image_url }}">
+      {% else %}
+        <div id="placeholder_grid_image"></div>
+      {% endif %}
+      <a href="{{resource.url}}">{{ resource.title }}</a>
       <p class="small_text" style="height: 80px;">{{ resource.description }}</p>
       <p class="small_text">Submitted By: {{ resource.submitter }}</p>
     </div>
   {%- endfor -%}
-
 </div>
 
 <h1>Tools</h1>
 <div class="grid_container">
   {%- for resource in tools -%}
   <div class="grid_item">
+    {% if resource.image_url %}
     <img src="{{ resource.image_url }}">
-    <br/><a href="{{resource.url}}">{{ resource.title }}</a>
+  {% else %}
+    <div id="placeholder_grid_image"></div>
+  {% endif %}
+    <a href="{{resource.url}}">{{ resource.title }}</a>
     <p class="small_text" style="height: 80px;">{{ resource.description }}</p>
     <p class="small_text">Submitted By: {{ resource.submitter }}</p>
   </div>
